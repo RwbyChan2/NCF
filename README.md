@@ -26,3 +26,5 @@ Remove guests icon:
 ```
 Line 546: <div class="mdi mdi-account-multiple-outline" data-ng-show="roomSettings.separateUserCount"></div>
 ```
+### 7.
+Add `nc_fantasia.jpg` to `/root/mqp-server/webserver/public/lib/img`
