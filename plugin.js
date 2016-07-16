@@ -159,7 +159,7 @@ var NFP = {
 						'<div class="people-user ng-scope NFP_TabTitle">' +
 							'<span class="NFP_TabTitleUname nsg-binding">' + 
 								'<i class="mdi mdi-arrange-bring-forward"></i>' +
-								'<span class="NFP_TabTitleText">DESKTOP NOTIFICATIONS</span></span>' +
+								'<span class="NFP_TabTitleText">EXTRA</span></span>' +
 							'<span class="people-info ng-binding"></span>' +
 						'</div>' + /*
 						'<div class="people-user ng-scope">' +
@@ -366,12 +366,12 @@ var NFP = {
   			},
 
   			CustomBG : function(){
-  				$('#CustomBG').css("background-image"," url('" + localStorage.getItem("CustomBG_URL")  + "')");
+  				$('#CustomBG').css("background-image"," url('" + localStorage.getItem("NFP_CustomBG_URL")  + "')");
   			},
 
   			setCustomBG : function(){
-  				NFP.main.options.NFP_Popup("Please enter an image url", localStorage.getItem("CustomBG_URL"), "CustomBG_URL");
-				$('#CustomBG').css("background-image"," url('" + localStorage.getItem("CustomBG_URL")  + "')");
+  				NFP.main.options.NFP_Popup("Please enter an image url", localStorage.getItem("NFP_CustomBG_URL"), "NFP_CustomBG_URL");
+				$('#CustomBG').css("background-image"," url('" + localStorage.getItem("NFP_CustomBG_URL")  + "')");
   			},
 
   			AFKMessage : function(data){
