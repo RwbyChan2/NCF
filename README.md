@@ -2,9 +2,11 @@
 ## TODO LIST ON UPDATE:
 
 ### 1. 
-`/root/mqp-server/webserver/public/index.html` -> add override.css file.
+`/root/mqp-server/webserver/public/index.html` -> add `<link rel="stylesheet" type="text/css" href="override.css">`.
+`/root/mqp-server/webserver/public/index.html` -> add `<script src="plugin.js"></script>`.
 ### 2.
 Place *git* `override.css` in `/root/mqp-server/webserver/public`.
+Place *git* `plugin.js` in `/root/mqp-server/webserver/public`.
 ### 3.
 Open `index.html`
 ### 4.
@@ -28,3 +30,4 @@ Line 546: <div class="mdi mdi-account-multiple-outline" data-ng-show="roomSettin
 ```
 ### 7.
 Add `nc_fantasia.jpg` to `/root/mqp-server/webserver/public/lib/img`
+
