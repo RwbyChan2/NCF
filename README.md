@@ -21,3 +21,8 @@ Change on 2nd `controls` class:
 ```
 JOIN | UPVOTE | GRAB | DOWNVOTE | SNOOZE
 ```
+### 6.
+Remove guests icon:
+```
+Line 546: <div class="mdi mdi-account-multiple-outline" data-ng-show="roomSettings.separateUserCount"></div>
+```
