@@ -7,6 +7,7 @@
 ### 2.
 Place *git* `override.css` in `/root/mqp-server/webserver/public`.
 Place *git* `plugin.js` in `/root/mqp-server/webserver/public`.
+Place *git* `pluginStyle.css` in `/root/mqp-server/webserver/public`.
 ### 3.
 Open `index.html`
 ### 4.
