@@ -9,7 +9,7 @@ var NFP = {
   			window.isRunning = true;
 
 			//Importing StyleSheets
-  			$('head').append('<link id="pluginStyle" rel="stylesheet" type="text/css" href="/pads/lib/css/pluginStyle.css">');
+  			$('head').append('<link id="pluginStyle" rel="stylesheet" type="text/css" href="pluginStyle.css">');
 
   			//Custom BG
   			$('#room-bg').append('<div id="CustomBG"></div>');
@@ -422,8 +422,3 @@ if(!window.isRunning){
 }else{
     setTimeout(NFP.main.init, 1000);
 }
-
-
-
-
-
