@@ -31,4 +31,5 @@ Line 546: <div class="mdi mdi-account-multiple-outline" data-ng-show="roomSettin
 ```
 ### 7.
 Add `nc_fantasia.jpg` to `/root/mqp-server/webserver/public/lib/img`
-
+### 8.
+Add  the `cndassets` folder to `/root/mqp-server/webserver` as a backup for when the CDN servers are offline
